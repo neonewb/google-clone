@@ -1,0 +1,134 @@
+.search__input {
+  display: flex;
+  align-items: center;
+  border: 1px solid lightgray;
+  height: 30px;
+  padding: 10px 20px;
+  border-radius: 999px;
+  margin: 0 auto;
+  width: 75vw;
+  margin-top: 40px;
+  max-width: 560px;
+  min-width: 340px;
+}
+
+.search__inputSearchPage {
+  display: flex;
+  align-items: center;
+  border: 1px solid lightgray;
+  height: 30px;
+  padding: 10px 20px;
+  border-radius: 999px;
+  margin: 0 auto;
+}
+
+.search__input > input {
+  flex: 1;
+  padding: 10px 20px;
+  font-size: large;
+  border: none;
+}
+
+.search__inputSearchPage > input {
+  flex: 1;
+  padding: 10px 20px;
+  font-size: large;
+  border: none;
+}
+
+.search__input > input:focus {
+  outline-width: 0;
+}
+
+.search__inputSearchPage > input:focus {
+  outline-width: 0;
+}
+
+.search__input:hover {
+  box-shadow: 0 1px 10px rgba(220, 220, 220, 1);
+  border: 1px solid #ffffff;
+}
+
+.search__inputSearchPage:hover {
+  box-shadow: 0 1px 10px rgba(220, 220, 220, 1);
+  border: 1px solid #ffffff;
+}
+
+.search__inputFocused {
+  box-shadow: 0 1px 10px rgba(220, 220, 220, 1);
+  border: 1px solid #ffffff;
+  display: flex;
+  align-items: center;
+  height: 30px;
+  padding: 10px 20px;
+  border-radius: 999px;
+  margin: 0 auto;
+  width: 75vw;
+  margin-top: 40px;
+  max-width: 560px;
+  min-width: 340px;
+}
+
+.search__inputFocusedSearchPage {
+  box-shadow: 0 1px 10px rgba(220, 220, 220, 1);
+  border: 1px solid #ffffff;
+  display: flex;
+  align-items: center;
+  height: 30px;
+  padding: 10px 20px;
+  border-radius: 999px;
+  margin: 0 auto;
+}
+
+.search__inputFocused > input {
+  flex: 1;
+  padding: 10px 20px;
+  font-size: large;
+  border: none;
+}
+
+.search__inputFocusedSearchPage > input {
+  flex: 1;
+  padding: 10px 20px;
+  font-size: large;
+  border: none;
+}
+
+.search__inputFocused > input:focus {
+  outline-width: 0;
+}
+
+.search__inputFocusedSearchPage > input:focus {
+  outline-width: 0;
+}
+
+.search__inputIcon {
+  color: gray;
+}
+
+.search__buttons {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.search__buttons button {
+  margin: 5px;
+  padding: 7px 15px;
+  background-color: #f8f8f8;
+  border: 1px solid white;
+  text-transform: inherit;
+  color: #5f6368;
+}
+
+.search__buttons button:hover {
+  box-shadow: 0 1px rgba(0, 0, 0, 0.1);
+  background-image: -webkit-linear-gradient(top, #f8f8f8 #f1f1f1);
+  background-color: #f8f8f8;
+  border: 1px solid #c6c6c6;
+  color: #222;
+}
+
+.search__buttonsHidden {
+  display: none !important;
+}
